@@ -544,15 +544,16 @@ a:hover {
         display: flex;
         flex-direction: column-reverse;
         width: 100%;
-        height: 120vh;
+        height: 90vh;
     }
     .box1 {
         width: 100%;
-        height: 60vh;
+        height: 40vh;
+        padding: 10px;
     }
     .box2 {
         width: 100%;
-        height: 60vh;
+        height: 50vh;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -563,6 +564,7 @@ a:hover {
     }
     .spn1 {
         font-size: 50px;
+        
     }
     .spn2 {
         font-size: 25px;
@@ -574,7 +576,7 @@ a:hover {
     }
     .containar2 {
         width: 100%;
-        height: 120vh;
+        height: 110vh;
         display: flex;
         flex-direction: column;
     }
@@ -592,7 +594,7 @@ a:hover {
     }
     .box4 {
         width: 100%;
-        height: 68vh;
+        height: 64vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -613,11 +615,15 @@ a:hover {
         font-size: 18px;
     }
     .child3 {
-        height: 30vh;
+        height: 25vh;
+        width: 100%;
+    }
+    .sub1 {
+        font-size: 30px;
     }
     .sub {
-        width: 200px;
-        
+        width: 100%;
+        padding: 3px;
         font-size: 36px;
     }
     .containar3 {
@@ -642,7 +648,7 @@ a:hover {
     }
     .containar4 {
         width: 100%;
-        height: 105vh;
+        height: 98vh;
         display: flex;
         flex-direction: column;
     }
@@ -651,7 +657,7 @@ a:hover {
     }
     .box10 {
         width: 100%;
-        
+        height: 98vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -687,24 +693,26 @@ a:hover {
         height: 50vh;
     }
     .box11 {
-        width: 90%;
+       
         display: none;
-        flex-direction: column;
-        height: 150vh;
-        align-items: center;
     }
     .containar6 {
         width: 100%;
-        height: 130vh;
+        height: 93vh;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     .box13 {
         width: 95%;
-        height: 40vh;
+        height: 31vh;
         
-    }.social {
+    }
+    .last2 {
+        font-size: 18px;
+        padding: 0px;
+    }
+    .social {
         width: 40px;
         height: 120px;
     }
