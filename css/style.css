@@ -648,16 +648,17 @@ a:hover {
     }
     .containar4 {
         width: 100%;
-        height: 75vh;
+        height: 60vh;
         display: flex;
         flex-direction: column;
+        overflow: hidden;
     }
     .box9 {
         display: none;
     }
     .box10 {
         width: 100%;
-        height: 75vh;
+        height: 60vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -665,18 +666,20 @@ a:hover {
     }
     .title2 {
         text-align: center;
+        
     }
     .content1 {
         text-align: center;
     }
     .content2 {
         text-align: center;
+        
     }
     .containar5 {
         width: 100%;
         height: 50vh;
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
