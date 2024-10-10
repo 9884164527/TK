@@ -222,13 +222,7 @@ a {
     font-family: monospace;
     
 }
-.spn4 {
-    color: #19082D;
-    font-size: 40px;
-    font-family: monospace;
-    
-}
-.box4 p {
+.p1 {
     font-style: initial;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     width: 100%;
@@ -504,7 +498,7 @@ a {
 a:hover {
     color: black;
 }
-@media only screen and (min-width:300px) and (max-width:780px) {
+@media only screen and (min-width:320px) and (max-width:780px) {
      
     .menu {
   
@@ -520,6 +514,13 @@ a:hover {
         top: 80px;
 
     }
+    .logo {
+        width: 50%;
+    }
+    .title {
+        width: 180px;
+        
+    }
     .menu:hover {
         color: #00bae0;
     }
@@ -527,6 +528,7 @@ a:hover {
     nav {
         position: sticky;
         top: 0;
+        width: 100%;
     }
     .btn2 {
         display: flex;
@@ -536,21 +538,21 @@ a:hover {
         align-items: center;
     }
     .fa-bars {
-        font-size: 30px;
+        font-size: 25px;
     }
     .containar1 {
         display: flex;
         flex-direction: column-reverse;
         width: 100%;
-        height: 80vh;
+        height: 120vh;
     }
     .box1 {
         width: 100%;
-        height: 30vh;
+        height: 60vh;
     }
     .box2 {
         width: 100%;
-        height: 50vh;
+        height: 60vh;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -559,16 +561,20 @@ a:hover {
         width: 80%;
         height: 50vh;
     }
+    .spn1 {
+        font-size: 50px;
+    }
     .spn2 {
-        font-size: 60px;
+        font-size: 25px;
     }
     .box1 p {
-        padding-left: 15px;
-        width: 90%;
+        padding-left: 8px;
+        width: 95%;
+        font-size: 18px;
     }
     .containar2 {
         width: 100%;
-        height: 90vh;
+        height: 120vh;
         display: flex;
         flex-direction: column;
     }
@@ -586,23 +592,37 @@ a:hover {
     }
     .box4 {
         width: 100%;
-        height: 40vh;
+        height: 68vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
     }
+    .spn3 {
+        font-size: 30px;
+        width: 290px;
+        
+    }
+    .p1 {
+        width: 280px;
+        font-size: 20px;
+    }
     .list {
         
-        font-size: 25px;
+        font-size: 18px;
     }
     .child3 {
-        height: 20vh;
+        height: 30vh;
+    }
+    .sub {
+        width: 200px;
+        
+        font-size: 36px;
     }
     .containar3 {
         width: 100%;
-        height: 150vh;
+        height: 200vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -610,7 +630,7 @@ a:hover {
     }
     .box {
         width: 85%;
-        height: 45vh;
+        height: 65vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -622,7 +642,7 @@ a:hover {
     }
     .containar4 {
         width: 100%;
-        height: 35vh;
+        height: 105vh;
         display: flex;
         flex-direction: column;
     }
@@ -631,7 +651,7 @@ a:hover {
     }
     .box10 {
         width: 100%;
-        height: 35%;
+        
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -648,7 +668,7 @@ a:hover {
     }
     .containar5 {
         width: 100%;
-        height: 85vh;
+        height: 50vh;
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
@@ -668,22 +688,34 @@ a:hover {
     }
     .box11 {
         width: 90%;
-        display: flex;
+        display: none;
         flex-direction: column;
-        
+        height: 150vh;
         align-items: center;
     }
     .containar6 {
         width: 100%;
-        height: 69vh;
+        height: 130vh;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     .box13 {
-        width: 85%;
-        height: 20vh;
+        width: 95%;
+        height: 40vh;
         
+    }.social {
+        width: 40px;
+        height: 120px;
+    }
+    .whats {
+        width: 40px;
+        height: 40px;
+        
+    }
+    .insta {
+        width: 60px;
+        height: 40px;
     }
 }
 
