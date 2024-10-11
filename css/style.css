@@ -702,23 +702,30 @@ a:hover {
     }
     .containar6 {
         width: 100%;
-        height: 80vh;
+        height: 90vh;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     .box13 {
         width: 95%;
-        height: 25vh;
+        height: 28vh;
         padding: 15px;
 
     }
     .s {
-        padding-top: 20px;
+        height: 25vh;
+    }
+    .last2 {
+        font-size: 18px;
+        padding: 2px;
+    }
+    .last3 {
+        font-size: 18px;
     }
     .last1 {
         font-size: 20px;
-        
+        padding-bottom: 5px;
         
     }
     .social {
