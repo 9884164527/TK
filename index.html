@@ -6,6 +6,8 @@
     <title>Ads website</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" href="./image/Screenshot 2024-10-05 214839.png" type="png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://kit.fontawesome.com/ac4c2a069e.js" crossorigin="anonymous"></script>
     <script>
         function openMenu(){
@@ -16,6 +18,10 @@
             }
 
         }
+        AOS.init({
+        duration: 1200,
+         })
+
     </script>
 </head>
 <body>
@@ -91,7 +97,7 @@
         <div class="containar3">
              
 
-            <div class="box5 box">
+            <div data-aos="fade-right" class="box5 box">
                
                 <img class="img3" src="https://gsglobalexpo.com/wp-content/uploads/2023/03/Auto-rickshaw-advertising-agency-in-delhi.webp" alt="Auto">
                 <h2 class="subtitle">Auto Rickshaw Advertising</h2>
