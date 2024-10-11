@@ -286,6 +286,7 @@ a {
     border-radius: 20px;
     overflow: hidden;
     transition: all 700ms;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -294,7 +295,7 @@ a {
 .box:hover {
     scale: 1.1;
     cursor: pointer;
-    filter: drop-shadow(6px 6px 10px  #dabee6);
+    
 
 }
 .subtitle {
