@@ -18,7 +18,7 @@ body {
     height: 150px;
     justify-content: center;
     align-items: center;
-    
+    z-index: 1;
 }
 
 .whats {
@@ -499,7 +499,7 @@ a {
 a:hover {
     color: black;
 }
-@media only screen and (min-width:320px) and (max-width:896px) {
+@media only screen and (min-width:320px) and (max-width:780px) {
      
     .menu {
   
