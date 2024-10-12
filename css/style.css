@@ -5,8 +5,8 @@
 }
 body {
   background-color: #F1F3FC;
-  
-  
+  position: relative;
+  width: 100%;
 }
 .social {
     position: fixed;
@@ -499,7 +499,7 @@ a {
 a:hover {
     color: black;
 }
-@media only screen and (min-width:320px) and (max-width:835px) {
+@media only screen and (min-width:320px) and (max-width:780px) {
      
     .menu {
   
@@ -530,7 +530,7 @@ a:hover {
     nav {
         position: sticky;
         top: 0;
-        width: 100%;
+        width: 129%;
     }
     .btn2 {
         display: flex;
