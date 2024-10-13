@@ -457,6 +457,15 @@ a {
     
     padding: 15px;
 }
+.con {
+    width: 30%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    
+    align-items: center;
+}
 .last {
     font-family: Arial, Helvetica, sans-serif;
 }
