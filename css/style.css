@@ -722,7 +722,7 @@ a:hover {
         height: 60vh;
         display: flex;
         flex-direction: column;
-        margin-left: 1px;
+        margin: auto;
         overflow: hidden;
     }
    .containar44 {
