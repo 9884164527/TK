@@ -724,6 +724,7 @@ a:hover {
         flex-direction: column;
         margin: auto;
         overflow: hidden;
+        background-color: #F0F3FD;
     }
    .containar44 {
       display: none;
@@ -766,6 +767,7 @@ a:hover {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        background-color: #F0F3FD;
     }
     .section2 {
         display: none;
