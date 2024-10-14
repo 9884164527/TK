@@ -5,12 +5,9 @@
 }
 body {
   background-color: #F1F3FC;
+  width: 100vw;
   overflow-x: hidden;
-  
-  
 }
-
-
 
 .social {
     position: fixed;
@@ -402,7 +399,7 @@ a {
 .section1 {
     width: 100%;
     height: 55vh;
-    
+    overflow: hidden;
     flex-direction: row-reverse;
     display: flex;
     justify-content: right;
@@ -410,7 +407,7 @@ a {
 .section2 {
     width: 100%;
     height: 55vh;
-    
+    overflow: hidden;
     flex-direction: row-reverse;
     display: flex;
     justify-content: right;
@@ -426,7 +423,7 @@ a {
     
 }
 .box11 {
-    width: 65%;
+    width: 60%;
     height: 55vh;
     display: flex;
     flex-direction: column;
@@ -462,8 +459,7 @@ a {
     border-radius: 50%;
 }
 .containar6 {
-    width: 100%;
-    height: 40vh;
+    width: 100vw;
     margin: 20px 0px;
     display: flex;
     justify-content: space-evenly;
@@ -472,19 +468,16 @@ a {
     color: #00bae0;
 }
 .box13 {
-    width: 30%;
+    width: 25%;
     height: 40vh;
     
     padding: 15px;
 }
 .con {
-    width: 30%;
-    height: 40vh;
     display: flex;
     flex-direction: column;
     padding: 15px;
-    
-    align-items: center;
+    justify-content: center;
 }
 .last {
     font-family: Arial, Helvetica, sans-serif;
@@ -528,8 +521,8 @@ i {
     border-radius: 10px;
 }
 iframe {
+    height: 30vh;
     width: 100%;
-    height: 27vh;
     border: 0;
 }
 a {
@@ -574,16 +567,7 @@ a:hover {
         top: 80px;
 
     }
-    body {
-        max-width: 100%;
-        overflow-x: hidden;
-        
-    }
-    * {
-        box-sizing: border-box;
-        max-width: 100%;
-        
-    }
+
     
     .logo {
         width: 80%;
@@ -793,21 +777,16 @@ a:hover {
         display: none;
     }
     .containar6 {
-        width: 100%;
-        height: 90vh;
-        display: flex;
         flex-direction: column;
-        align-items: center;
+        overflow: hidden;
     }
     .box13 {
-        width: 95%;
-        height: 28vh;
+        width: 100%;
         padding: 15px;
+        display: flex;
+        flex-direction: column;
+    }
 
-    }
-    .con {
-        align-items: normal;
-    }
     .s {
         height: 25vh;
     }
@@ -828,7 +807,8 @@ a:hover {
         position: fixed;
         right: 10px;
         bottom: 10px;
-       
+        width: 40px;
+        height: 120px;
        
     }
     .whats {
@@ -839,6 +819,9 @@ a:hover {
     .insta {
         width: 60px;
         height: 40px;
+    }
+    .iframe {
+        height: 28vh;
     }
 }
 
