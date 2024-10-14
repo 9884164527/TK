@@ -769,8 +769,8 @@ a:hover {
     }
     .img5 {
         width: 90%;
-        height: 46vh;
-        border-radius: 10px;
+        height: 40vh;
+        border-radius: 15px;
     }
     .box11 {
        
@@ -791,7 +791,9 @@ a:hover {
         flex-direction: column;
         height: 25vh;
     }
-
+    .s {
+        padding: 10px;
+    }
 
     
     .last2 {
