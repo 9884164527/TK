@@ -761,15 +761,15 @@ a:hover {
     }
     .box12 {
        width: 100%;
-       height: 50vh;
+       height: 56vh;
        display: flex;
-       flex-direction: column-reverse;
+       
        justify-content: center;
        
     }
     .img5 {
         width: 90%;
-        height: 40vh;
+        height: 50vh;
         border-radius: 15px;
         
     }
