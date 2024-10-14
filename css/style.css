@@ -703,7 +703,7 @@ a:hover {
     }
     .containar4 {
         width: 90%;
-        height: 60vh;
+        height: 55vh;
         display: flex;
         flex-direction: column;
         margin: auto;
@@ -761,16 +761,17 @@ a:hover {
     }
     .box12 {
        width: 100%;
-       
+       height: 50vh;
        display: flex;
        flex-direction: column-reverse;
        justify-content: center;
-       align-items: center;
+       
     }
     .img5 {
         width: 90%;
         height: 40vh;
         border-radius: 15px;
+        
     }
     .box11 {
        
@@ -807,6 +808,9 @@ a:hover {
         font-size: 20px;
         padding-bottom: 5px;
         
+    }
+    .last11 {
+        margin-top: 20px;
     }
     .social {
         
